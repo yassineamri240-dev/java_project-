@@ -1,6 +1,6 @@
 package projet_final;
 
-public class MaintenanceRequiseException extends Exception {
+public class MaintenanceRequiseException extends RobotException {
     public MaintenanceRequiseException(String message) {
         super(message);
     }
