@@ -772,4 +772,9 @@ public class StationControle extends JFrame {
             g2.drawString(lb,cx-fm.stringWidth(lb)/2,cy+r+12);
         }
     }
+    public static void main(String[] args ) {
+    	new StationControle().setVisible(true);;
+    	
+    	
+    }
 }
